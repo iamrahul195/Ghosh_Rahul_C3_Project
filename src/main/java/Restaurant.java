@@ -73,20 +73,20 @@ public class Restaurant {
         return name;
     }
     // my method
-    // public Double OrderTotal(String[] ItemNameArray) {
-    // 	int size = ItemNameArray.length;
-    // 	Double totalPrice = 0.0;
+    public Double OrderTotal(String[] ItemNameArray) {
+    	int size = ItemNameArray.length;
+    	Double totalPrice = 0.0;
     	
-    // 	for(int i = 0 ;i<size;i++) {
+    	for(int i = 0 ;i<size;i++) {
     		
-    // 		Item item = findItemByName(ItemNameArray[i]);
-    //         totalPrice = totalPrice + item.getPrice();
+    		Item item = findItemByName(ItemNameArray[i]);
+            totalPrice = totalPrice + item.getPrice();
     		
     		
-    // 	}
+    	}
     	
-    //     return totalPrice;
-    // }
+        return totalPrice;
+    }
     
     
 
