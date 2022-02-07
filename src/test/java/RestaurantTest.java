@@ -78,13 +78,13 @@ public void BeforeEachTest(){
                 ()->restaurant.removeFromMenu("French fries"));
     }
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-    // @Test
-    // public void Totlal_Order_Amount_After_Adding_Menu_Item(){
+    @Test
+    public void Totlal_Order_Amount_After_Adding_Menu_Item(){
      
-    //     String[] ItemNameArray = {"Sweet corn soup","Vegetable lasagne"};
+        String[] ItemNameArray = {"Sweet corn soup","Vegetable lasagne"};
 
         
-    //     assertEquals(388,restaurant.OrderTotal(ItemNameArray));
-    // }
+        assertEquals(388,restaurant.OrderTotal(ItemNameArray));
+    }
 
 }
